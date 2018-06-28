@@ -8,7 +8,9 @@
           EDIT
     .members
       .members__member
-        %p MEMBER: takahashi
+        MEMBER:
+        - @group.users.each do |user|
+          =user.name
   .body
     .messages
       = render @messages
