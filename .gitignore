@@ -1,0 +1,10 @@
+tmp/
+log/
+image/
+pids/
+
+log/development.log
+cache/
+
+
+config/secrets.yml
